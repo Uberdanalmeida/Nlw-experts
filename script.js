@@ -1,94 +1,94 @@
 const perguntas = [
     {
-        pergunta: "O que é JavaScript?",
+        pergunta: "O que é React.js?",
         respostas: [
-            "Uma linguagem de programação para criar páginas estáticas",
-            "Um framework para desenvolvimento mobile",
-            "Uma linguagem de programação para web",
+            "Uma linguagem de programação",
+            "Uma biblioteca JavaScript para construção de interfaces de usuário",
+            "Um sistema operacional",
         ],
-        correta: 2
+        correta: 1,
     },
     {
-        pergunta: "Qual é a função do comando 'console.log()' em JavaScript?",
+        pergunta: "Qual é a principal função do JSX no React?",
         respostas: [
-            "Exibir um alerta na tela",
-            "Registrar mensagens no console do navegador",
-            "Iniciar uma função assíncrona",
+            "Definir estilos CSS",
+            "Manipular dados no servidor",
+            "Permitir a escrita de marcação HTML em arquivos JavaScript",
         ],
-        correta: 1
+        correta: 2,
     },
     {
-        pergunta: "O que é uma variável em JavaScript?",
+        pergunta: "O que é um componente em React?",
         respostas: [
-            "Um tipo de dado primitivo",
-            "Um valor constante que não pode ser alterado",
-            "Um contêiner para armazenar e manipular dados",
+            "Um arquivo de configuração",
+            "Uma função que renderiza elementos na interface",
+            "Um banco de dados",
         ],
-        correta: 2
+        correta: 1,
     },
     {
-        pergunta: "O que é uma função em JavaScript?",
+        pergunta: "Qual é a ferramenta recomendada para criar um novo aplicativo React?",
         respostas: [
-            "Um loop de repetição",
-            "Um bloco de código que realiza uma tarefa específica",
-            "Uma declaração condicional",
+            "Create React Application (CRA)",
+            "Angular CLI",
+            "Vue CLI",
         ],
-        correta: 1
+        correta: 0,
     },
     {
-        pergunta: "Qual é a diferença entre 'let', 'const' e 'var' na declaração de variáveis?",
+        pergunta: "O que é o estado (state) em um componente React?",
         respostas: [
-            "São palavras-chave intercambiáveis em JavaScript",
-            "Afetam o escopo de uma variável",
-            "São usadas apenas para números inteiros",
+            "Uma variável global disponível em todo o aplicativo",
+            "Dados que não podem ser modificados",
+            "Dados que podem ser modificados e afetam a renderização do componente",
         ],
-        correta: 1
+        correta: 2,
     },
     {
-        pergunta: "O que é o DOM em JavaScript?",
+        pergunta: "Qual é a função do método 'render()' em um componente React?",
         respostas: [
-            "Um modelo de desenvolvimento orientado a objetos",
-            "Um padrão de projeto para organização de código",
-            "A representação da estrutura da página web para manipulação via código",
+            "Iniciar o componente",
+            "Renderizar elementos na interface",
+            "Capturar eventos de clique",
         ],
-        correta: 2
+        correta: 1,
     },
     {
-        pergunta: "Como se faz um comentário de uma única linha em JavaScript?",
+        pergunta: "O que é propriedade (props) em React?",
         respostas: [
-            "// Isso é um comentário",
-            "/* Isso é um comentário */",
-            "'Isso é um comentário'",
+            "Dados armazenados no servidor",
+            "Valores que podem ser passados de um componente pai para um componente filho",
+            "Métodos de estilização de componentes",
         ],
-        correta: 0
+        correta: 1,
     },
     {
-        pergunta: "Qual é a função do operador '===' em JavaScript?",
+        pergunta: "Como o React otimiza o desempenho das aplicações?",
         respostas: [
-            "Comparação de valores, sem levar em consideração o tipo",
-            "Atribuição de valor a uma variável",
-            "Comparação de valores, considerando o tipo",
+            "Minificando automaticamente o código",
+            "Utilizando a linguagem de programação C++",
+            "Realizando atualizações eficientes no DOM",
         ],
-        correta: 2
+        correta: 2,
     },
     {
-        pergunta: "O que é AJAX em JavaScript?",
+        pergunta: "O que é o conceito de 'lifting state up' em React?",
         respostas: [
-            "Uma biblioteca para criação de interfaces gráficas",
-            "Uma técnica para atualizar partes de uma página sem recarregar a página inteira",
-            "Um algoritmo de ordenação de dados",
+            "Elevar o estado de um componente filho para um componente pai",
+            "Reduzir a complexidade de um componente",
+            "Adicionar estilo aos elementos da interface",
         ],
-        correta: 1
+        correta: 0,
     },
     {
-        pergunta: "Qual é o propósito do método 'addEventListener' em JavaScript?",
+        pergunta: "Como importar um componente React em um arquivo JavaScript?",
         respostas: [
-            "Criar elementos HTML dinamicamente",
-            "Adicionar estilos CSS a elementos da página",
-            "Associar eventos a elementos HTML para executar funções específicas",
+            "import React from 'MeuComponente'",
+            "include MeuComponente from 'React'",
+            "import MeuComponente from 'caminho/do/componente'",
         ],
-        correta: 2
-    }
+        correta: 2,
+    },
 ];
 
 const quiz = document.querySelector('#quiz')
