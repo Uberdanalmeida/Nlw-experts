@@ -20,7 +20,7 @@ body {
 main {
     padding: 20px;
     max-width: 640px;
-    margin: auto 0 64px;
+    margin: auto;
 }
 
 header {
@@ -58,6 +58,7 @@ header h1 {
     border: 1px solid #475569;
     border-radius: 6px;
     overflow: hidden;
+    margin-bottom: 30px;
 }
 
 .quiz-item h3 {
