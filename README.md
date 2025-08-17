@@ -1,4 +1,4 @@
-![Projeto-nlw-Quiz](imagem/projeto-nlw-quiz.png)
+![Projeto-nlw-Quiz](imagem/Nlw-experts.png)
 
 # 🎮 Quiz React.js: Teste seus Conhecimentos! 🚀
 
